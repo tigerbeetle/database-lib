@@ -1,7 +1,5 @@
 'use strict'
 
-const assert = require('node:assert')
-
 class Table {
   constructor (name, knex) {
     this._tableName = name
